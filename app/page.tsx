@@ -165,6 +165,12 @@ const AboutPage = () => {
       </div>
     </section>
 
+    <section>
+      <div className='p-10 content-center'>
+        <h1 className='text-2xl font-mono text-center'>Yo this is for testing <span className='text-5xl font-bold uppercase leading-1.5 text-amber-700'>fr fr...</span></h1>
+      </div>
+    </section>
+
     </div>
   )
 }
