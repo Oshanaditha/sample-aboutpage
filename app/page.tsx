@@ -214,6 +214,107 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+
+{/* Footer */}
+
+      <footer className="bg-[#1F2937] text-white px-6 py-12">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+          {/* COMPANY INFO */}
+          <div>
+            <h3 className="text-xl font-bold mb-4">YourCompany</h3>
+            <p className="text-sm text-gray-300">
+              Creating meaningful experiences through design and innovation.
+            </p>
+          </div>
+
+          {/* QUICK LINKS */}
+          <div>
+            <h4 className="text-lg font-semibold mb-3">Quick Links</h4>
+            <ul className="space-y-2 text-sm text-gray-300">
+              <li>
+                <a href="/" className="hover:text-white">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="/about" className="hover:text-white">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="/services" className="hover:text-white">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="hover:text-white">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* CONTACT */}
+          <div>
+            <h4 className="text-lg font-semibold mb-3">Contact Us</h4>
+            <p className="text-sm text-gray-300">
+              123 Main Street,
+              <br />
+              Colombo 07, Sri Lanka
+            </p>
+            <p className="text-sm text-gray-300 mt-2">Phone: +94 71 234 5678</p>
+            <p className="text-sm text-gray-300">
+              Email: hello@yourcompany.com
+            </p>
+          </div>
+
+          {/* SOCIAL MEDIA */}
+          <div>
+            <h4 className="text-lg font-semibold mb-3">Follow Us</h4>
+            <div className="flex gap-4 text-2xl text-gray-300">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#DB9478]"
+              >
+                <FaFacebookF />
+              </a>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#DB9478]"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#DB9478]"
+              >
+                <FaLinkedinIn />
+              </a>
+              <a
+                href="https://www.youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#DB9478]"
+              >
+                <FaYoutube />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* COPYRIGHT */}
+        <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
+          © {new Date().getFullYear()} Aditha Wickramasingha. All rights reserved.
+        </div>
+      </footer>
+
+
     </div>
   );
 };
